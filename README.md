@@ -6,7 +6,7 @@
 
 ### Задание 1. Создать Pod с именем hello-world
 
-1. Создать манифест (yaml-конфигурацию) Pod.
+1. Создать [манифест](https://github.com/Markin-AI/kub-2/blob/main/hello-world.yml) (yaml-конфигурацию) Pod.
 2. Использовать image - gcr.io/kubernetes-e2e-test-images/echoserver:2.2.
 3. Подключиться локально к Pod с помощью `kubectl port-forward` и вывести значение (curl или в браузере).
 
@@ -28,6 +28,10 @@
 ![4](https://github.com/Markin-AI/kub-2/blob/main/img/4.png)
 
 ![5](https://github.com/Markin-AI/kub-2/blob/main/img/5.png)
+
+[POD](https://github.com/Markin-AI/kub-2/blob/main/netology-web.yaml)
+
+[SERVICE](https://github.com/Markin-AI/kub-2/blob/main/service.yaml)
 
 ------
 
